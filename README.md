@@ -1,12 +1,7 @@
+# Reproduction of Hydration Error in Dioxus
 
-
-Launch the Dioxus Fullstack app:
+- Running a server in docker
 
 ```bash
-dx serve --platform fullstack
-```
-## Building for lambda
-
-``` bash
-    dx build --platform fullstack --server-feature lambda
+make run
 ```
