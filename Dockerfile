@@ -9,6 +9,6 @@ RUN apt install curl clang perl build-essential libc6:amd64 libstdc++6:amd64 lib
 
 RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 
-RUN . "$HOME/.cargo/env" && cargo install dioxus-cli --version 0.6.0-alpha.3
+RUN . "$HOME/.cargo/env" && cargo install dioxus-cli --version 0.6.0-alpha.5
 RUN . "$HOME/.cargo/env" && rustup target add wasm32-unknown-unknown
 
